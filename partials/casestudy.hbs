@@ -3,6 +3,11 @@
     <h3 class="panel-title">{{#if title}}{{title}}{{else}}More on this story{{/if}}</h3>
   </div>
   <div class="panel-body">
-    {{{text}}}
+    <p>{{{text}}}</p>
+    {{#if links}}<ul class="fa-ul">
+      {{#each links}}
+        <li><a href="{{url}}"><i class="fa-li fa fa-angle-right"></i> {{name}}</a></li>
+      {{/each}}
+    </ul>{{/if}}
   </div>
 </div>
