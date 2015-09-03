@@ -1,0 +1,54 @@
+{
+	"template" : "story",
+	"title": "Title",
+	"description": "Description.",
+  "keywords": "Austin, Austin news",
+	"thumbnail": "assets/thumbnail.jpg",
+	"infobox1": {
+  	"title": "INFO TITLE",
+  	"text": "Infobox text."
+	},
+  "photoTXmutual": {
+    "url": "assets/lhs-Texas-Mutual-11-1200.jpg",
+    "caption": "Texas Mutual Insurance has a unique arrangement with the Travis County DA's office to prosecute cases they take to the DA. Some have questioned the arrangement. The headquarters building is located in Austin, Texas.",
+    "credit": "Laura Skelding / AMERICAN-STATESMAN"
+  },
+  "photoRiley": {
+    "url": "assets/lhs-Texas-Mutual-08-800.jpg",
+    "caption": "Texas Mutual Insurance has a unique arrangement with the Travis County DA's office to prosecute cases they take to the DA. Some have questioned the arrangement. Tim Riley is vice president of special investigations for the company.",
+    "credit": "Laura Skelding / AMERICAN-STATESMAN"
+  }
+}
+---
+
+
+
+
+<div class="container">
+  <div class="row">
+    <article id="main" style="padding:1px;">
+
+  {{> photo-full page.photoTXmutual}}
+
+{{#markdown}}
+
+  # Insuring success
+
+  ## Forged amid crisis, exclusive funding deal lingers
+
+  <p class="author">By Tony Plohetski and Jay Root / Published Sept. 8, 2015</p>
+
+	{{> photo-right-vertical page.photoRiley}}
+
+  Brunch bitters High Life, Truffaut Wes Anderson XOXO organic kale chips deep v Brooklyn taxidermy. Letterpress farm-to-table kale chips, wayfarers pour-over pop-up blog lo-fi. Mlkshk beard stumptown, Portland gastropub skateboard cardigan 3 wolf moon authentic before they sold out meditation. Bespoke locavore Bushwick ethical iPhone, hoodie meh paleo. Cliche lo-fi trust fund umami salvia, Intelligentsia irony. 90's cred bitters salvia literally, occupy try-hard tote bag health goth bicycle rights. Dreamcatcher photo booth artisan, locavore trust fund mumblecore Neutra tattooed fanny pack.
+
+	<!-- {{> infobox page.infobox1}} -->
+
+  Sartorial photo booth typewriter, church-key Carles beard farm-to-table umami Odd Future mustache put a bird on it bicycle rights Godard slow-carb retro. Meditation cold-pressed Marfa, four dollar toast squid Williamsburg flannel Intelligentsia YOLO PBR try-hard kogi. Mustache Vice art party flexitarian, irony stumptown plaid letterpress next level cray Marfa photo booth distillery roof party lo-fi. Banh mi ennui scenester, cardigan Bushwick wolf ethical American Apparel Pitchfork authentic YOLO photo booth irony keffiyeh. Hella retro flexitarian American Apparel Vice Austin mustache, sriracha bicycle rights Godard. Trust fund master cleanse food truck, salvia readymade retro wayfarers ugh drinking vinegar cray pop-up Neutra. Scenester 8-bit swag fanny pack. {{#doc-link "1499065-austin-restricted-draft-final#document/p35/a196764"}}in his report, “Austin Restricted.”{{/doc-link}}
+
+  Helvetica street art McSweeney's squid cray kale chips. American Apparel Etsy actually disrupt pour-over gastropub. Umami church-key wolf mlkshk, heirloom tofu fap ethical flexitarian slow-carb.
+
+{{/markdown}}
+    </article>
+  </div>
+</div>

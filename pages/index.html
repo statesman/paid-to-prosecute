@@ -1,0 +1,71 @@
+{
+  "template" : "story",
+  "title": "Paid to prosecute: ",
+  "description": "",
+  "keywords": "Austin, Austin news, Texas Mutual Insurance",
+  "thumbnail": "assets/index-social-thumbnail.jpg",
+  "indexteaseMain": {
+    "title": "",
+    "storyUrl": "main.html",
+    "imageUrl": "assets/Roy-Kyess-6-700.jpg",
+    "headline": "Prosecutors for hire",
+    "text": "A private insurer is paying government lawyers to pursue its workers’ compensation fraud cases."
+  },
+  "indexteaseProsecutor": {
+    "title": "",
+    "storyUrl": "prosecutor.html",
+    "imageUrl": "assets/Donna-Crosby-5-700.jpg",
+    "headline": "A brash prosecutor",
+    "text": "The head of Travis County's Texas Mutual-funded insurance fraud unit has an independent streak — and a public personality."
+  },
+  "indexteaseHistory": {
+    "title": "",
+    "storyUrl": "history.html",
+    "imageUrl": "assets/lhs-Texas-Mutual-09-700.jpg",
+    "headline": "Insuring success",
+    "text": "Forged amid crisis, an exclusive funding deal between Texas Mutual and the Travis County DA’s office lingers."
+  },
+  "videoOverview": {
+    "ytsrc": "https://www.youtube.com/embed/sZIsNNTLhAI"
+  },
+  "eastave": {
+    "url": "assets/east-avenue.jpg",
+    "caption": "This is a view of East Avenue, looking north from the top of Brackenridge Hospital in the 1960s. For decades, the road that became Interstate 35 in 1962 served as the de facto boundary that isolated Austin's African-American residents to the east.",
+    "credit": "Source: Texas Dept. of Transportation"
+  }
+}
+---
+<div class="container">
+  <div class="row">
+    <article id="main">
+
+      <!-- <img width="180" src="assets/paid-to-prosecute.png" /> -->
+
+
+      {{> video-full-youtube page.videoOverview}}
+
+      <div class="container">
+
+        <div class="header col-lg-12">
+          <img class="img-responsive" src="assets/p2p-logo.svg">
+          <h2>Words of some type. We don't have a trib headline for this.</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            {{> indextease page.indexteaseMain}}
+          </div>
+          <div class="col-sm-4">
+            {{> indextease page.indexteaseProsecutor}}
+          </div>
+          <div class="col-sm-4">
+            {{> indextease page.indexteaseHistory}}
+          </div>
+        </div>
+      </div>
+
+
+
+    </article>
+  </div>
+</div>
