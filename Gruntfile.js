@@ -143,7 +143,7 @@ module.exports = function(grunt) {
             },
             {
               title: "A brash prosecutor",
-              subtitle: "Demanding and opinionated",
+              subtitle: "Independent and opinionated",
               file: "prosecutor"
             },
             {
