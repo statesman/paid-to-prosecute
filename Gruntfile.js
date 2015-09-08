@@ -137,7 +137,7 @@ module.exports = function(grunt) {
               file: "index"
             },
             {
-              title: "Justice for hire",
+              title: "Justice for hire?",
               subtitle: "Unusual partnership",
               file: "main"
             },
