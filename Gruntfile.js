@@ -129,7 +129,7 @@ module.exports = function(grunt) {
           templates: 'layouts',
           templateExt: 'hbs',
           helpers: require('./helpers'),
-          base: 'http://projects.statesman.com/news/paid-to-prosecute/',
+          base: 'https://projects.statesman.com/news/paid-to-prosecute/',
           nav: [
             {
               title: "Paid to prosecute",
